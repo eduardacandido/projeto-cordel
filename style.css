@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+
+}
+
+header h1 {
+    font: normal 2.5em 'passion one', sans-serif;
+    text-transform: uppercase;
+
+}
+header span {
+    font: bold 1.5em 'passion one', sans-serif;
+
+}
+
+header p {
+    font: lighter 0.8em sans-serif;
+}
+
+main {
+    background-color: #144200e5;
+}
+
+article {
+    background-color: white;
+    max-width: 1020px;
+    margin: auto;
+
+}
+
+main section {
+    padding: 20px 0px;
+    margin: 0px ;
+
+}
+
+main pre {
+    font-family: 'sriracha', cursive;
+
+}
+
+div {
+    color: white;
+
+}
+
+.parallax {
+    margin-top: 100px;
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+}
