@@ -19,17 +19,24 @@ header {
 }
 
 header h1 {
-    font: normal 2.5em 'passion one', sans-serif;
+    font: normal 6.5vw 'passion one', sans-serif;
     text-transform: uppercase;
 
 }
+
 header span {
     font: bold 1.5em 'passion one', sans-serif;
 
 }
 
 header p {
-    font: lighter 0.8em sans-serif;
+    font: lighter 1em sans-serif;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    
 }
 
 main {
@@ -40,31 +47,39 @@ main {
 
 main section {
     padding: 20px 0px;
-    margin: 0px ;
+    margin: 0px;
 
 }
 
-main pre {
-    font-family: 'sriracha', cursive;
+main {
+    font: normal 4vw 'sriracha', cursive;
+    line-height: 8vw;
 
+}
+
+.estrofes {
+    padding: 3vw;
 }
 
 .parallax {
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(0, 0, 0, 0.349);
     background-size: contain;
-    margin-left: 60px;
-    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 3vw;
+    width: fit-content;
     color: white;
+
 }
 
 #parallaxJoaninha {
-    background: green url(pacote-d012/imagens/background001.jpg) center center no-repeat fixed;
+    background: green url(pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
     background-size: cover;
 
 }
 
 #parallaxCarta {
-    background: green url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    background: grey url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
 
 }
