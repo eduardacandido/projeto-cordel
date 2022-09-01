@@ -14,60 +14,59 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 5%;
 
 }
 
 header h1 {
-    font: normal 6.5vw 'passion one', sans-serif;
-    text-transform: uppercase;
-
-}
-
-header span {
-    font: bold 1.5em 'passion one', sans-serif;
+    font: normal 10vw 'passion one', sans-serif;
+    font-variant: small-caps;
+    padding-top: 50px;
 
 }
 
 header p {
     font: lighter 1em sans-serif;
+    padding-bottom: 50px;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
     
 }
 
-main {
-    background-color: white;
-    width: 100%;
-
-}
-
-main section {
-    padding: 20px 0px;
-    margin: 0px;
+a:hover {
+    text-decoration: underline;
 
 }
 
 main {
     font: normal 4vw 'sriracha', cursive;
     line-height: 8vw;
+    background-color: white;
+    width: 100%;
+
+}
+
+main section {
+    padding: 10vh 0vh;
 
 }
 
 .estrofes {
+    background-color: white;
+    color: black;
     padding: 3vw;
 }
 
 .parallax {
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: rgba(0, 0, 0, 0.4);
     background-size: contain;
     border-radius: 10px;
     padding: 5px;
     margin-left: 3vw;
     width: fit-content;
+    text-shadow: 1px 1px 0px black;
     color: white;
 
 }
@@ -75,11 +74,21 @@ main {
 #parallaxJoaninha {
     background: green url(pacote-d012/imagens/background001.jpg) center bottom no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4);
 
 }
 
 #parallaxCarta {
     background: grey url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
 
 }
